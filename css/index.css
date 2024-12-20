@@ -55,7 +55,7 @@ main {
   height: 220px;
 }
 
-.content__text__title{
+.content__text__title {
   font-weight: 700;
   font-size: 50px;
   line-height: 55px;
@@ -63,7 +63,7 @@ main {
   height: 131px;
 }
 
-.content__text__subtitle{
+.content__text__subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -76,20 +76,17 @@ main {
   border: none;
 }
 
-.content__item{
-    padding-top: 17px;
-    padding-bottom: 17px;
-    background-color: rgba(94, 84, 164, 1);
-    text-align: center;
-    border-radius: 10px;
-    margin-bottom: 24px;
-    -webkit-box-shadow: -1px 14px 1px -1px rgba(174, 173, 184, 0.44);
-    -moz-box-shadow: -1px 14px 5px -1px rgba(174, 173, 184, 0.44);
-    box-shadow: -1px 11px 5px -1px rgba(172, 171, 190, 0.44);
-  ;
+.content__item {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  background-color: rgba(94, 84, 164, 1);
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 24px;
 }
 
 .content__form {
+  padding-top: 40px;
   width: 100%;
   max-width: 540px;
   display: flex;
@@ -97,18 +94,18 @@ main {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 8px 0px 0px #00000025;
-  border:none;
+  border: none;
 }
 
 .content__form__list {
   width: 100%;
-    max-width: 460px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 32px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    border:1px solid rgb(126, 124, 124);
+  max-width: 460px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 32px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(126, 124, 124);
 }
 
 .content__form__link {
@@ -118,7 +115,7 @@ main {
   padding-left: 32px;
   padding-top: 15px;
   padding-bottom: 15px;
-  border: 1px solid #dedede;
+  /* border: 1px solid #dedede; */
   margin-bottom: 20px;
   color: #3d3b48;
   font-weight: 600;
@@ -130,6 +127,7 @@ main {
 
 .content__form__btn {
   padding-top: 15px;
+  color: #ffffff;
   padding-bottom: 15px;
   background-color: rgb(56, 204, 139, 1);
   text-align: center;
@@ -154,8 +152,8 @@ main {
   font-size: 11px;
   line-height: 26px;
   text-align: center;
-  margin-top: 8px;
 }
 .content__form__item {
   color: #ff7979;
+  margin-top: 8px;
 }
